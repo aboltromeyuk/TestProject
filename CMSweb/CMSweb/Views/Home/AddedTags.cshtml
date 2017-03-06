@@ -1,0 +1,27 @@
+﻿@model CMSviewModel.ArtTagsViewModel
+@{
+    Layout = null;
+
+}
+
+@Html.HiddenFor(model => model.Id)
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Тег")
+        </th>
+        <th></th>
+    </tr>
+    
+@foreach (var item in Model.Tags) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Изменить", "UpdateTag", new { id=item.Id }) |
+            @Html.ActionLink("Отвязать", "DelTagArt", new { idArt=Model.Id, idTag=item.Id })
+        </td>
+    </tr>
+}
+</table>

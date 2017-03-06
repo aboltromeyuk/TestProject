@@ -1,0 +1,7 @@
+D:\TestProject\CMSweb\CMSviewModel\bin\Debug\CMSviewModel.dll
+D:\TestProject\CMSweb\CMSviewModel\bin\Debug\CMSviewModel.pdb
+D:\TestProject\CMSweb\CMSviewModel\obj\Debug\CMSviewModel.csprojResolveAssemblyReference.cache
+D:\TestProject\CMSweb\CMSviewModel\obj\Debug\CMSviewModel.dll
+D:\TestProject\CMSweb\CMSviewModel\obj\Debug\CMSviewModel.pdb
+D:\TestProject\CMSweb\CMSviewModel\bin\Debug\System.Web.Mvc.dll
+D:\TestProject\CMSweb\CMSviewModel\bin\Debug\System.Web.Mvc.xml

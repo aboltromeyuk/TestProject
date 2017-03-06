@@ -1,0 +1,64 @@
+﻿@model IEnumerable<CMSviewModel.ArticleViewModel>
+
+@{
+    ViewBag.Title = "Статьи";
+    Layout = null;
+
+}
+
+<h2>Статьи</h2>
+
+<p>
+    @Html.ActionLink("Создать новую", "CreateArt")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Header)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Annotation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreateTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ChangeTime)
+        </th>
+        <th>
+            @Html.DisplayName("Прикрепленные теги")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Header)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Annotation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreateTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ChangeTime)
+        </td>
+        <td>
+            <input type="button" value="..." data-index="@item.Id" id="artTags" class="btn btn-default"/>
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "UpdateArt", new { id=item.Id }) |
+            @Html.ActionLink("Удалить", "DeleteArt", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

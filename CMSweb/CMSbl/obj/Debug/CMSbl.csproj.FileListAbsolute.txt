@@ -1,0 +1,16 @@
+D:\TestProject\CMSweb\CMSbl\bin\Debug\CMSbl.dll
+D:\TestProject\CMSweb\CMSbl\bin\Debug\CMSbl.pdb
+D:\TestProject\CMSweb\CMSbl\obj\Debug\CMSbl.csprojResolveAssemblyReference.cache
+D:\TestProject\CMSweb\CMSbl\obj\Debug\CMSbl.dll
+D:\TestProject\CMSweb\CMSbl\obj\Debug\CMSbl.pdb
+D:\TestProject\CMSweb\CMSbl\bin\Debug\CMSbl.dll.config
+D:\TestProject\CMSweb\CMSbl\bin\Debug\CMSdal.dll
+D:\TestProject\CMSweb\CMSbl\bin\Debug\CMSviewModel.dll
+D:\TestProject\CMSweb\CMSbl\bin\Debug\EntityFramework.dll
+D:\TestProject\CMSweb\CMSbl\bin\Debug\EntityFramework.SqlServer.dll
+D:\TestProject\CMSweb\CMSbl\bin\Debug\CMSdal.pdb
+D:\TestProject\CMSweb\CMSbl\bin\Debug\CMSviewModel.pdb
+D:\TestProject\CMSweb\CMSbl\bin\Debug\EntityFramework.xml
+D:\TestProject\CMSweb\CMSbl\bin\Debug\EntityFramework.SqlServer.xml
+D:\TestProject\CMSweb\CMSbl\bin\Debug\System.Web.Mvc.dll
+D:\TestProject\CMSweb\CMSbl\bin\Debug\System.Web.Mvc.xml
