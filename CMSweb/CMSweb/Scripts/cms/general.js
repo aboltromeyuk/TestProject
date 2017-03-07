@@ -24,7 +24,7 @@
     
     $('#addBtn').click(function(){
         Content.addingTagToArt();
-        
+        Content.reloudeListTags();
         
     });
 });
@@ -60,7 +60,7 @@ Content = {
             url: '/Home/AddTagToArt',
             asynch: true,
             data: { idArt: idArt, nameTag: nameTag },
-            success: function () { Content.reloudeListTags();},
+            success: function () { },
             error: function() { }
         });
     },
